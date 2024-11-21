@@ -11,8 +11,8 @@ RETRY_DELAY=15  # Задержка перед повторной попытко�
 VALHEIM_SERVER_PATH="$HOME/valheim-server"
 
 GDRIVE_CONFIG_PATH=""
-GDRIVE_WORLD_DATA_PATH=""
-LOCAL_WORLD_DATA_PATH="$HOME/.config/unity3d/IronGate/Valheim"
+export GDRIVE_WORLD_DATA_PATH=""
+export LOCAL_WORLD_DATA_PATH="$HOME/.config/unity3d/IronGate/Valheim"
 
 export SCREEN_SESSION_NAME="valheim_server"
 
