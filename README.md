@@ -21,6 +21,7 @@ cat > "$HOME/.config/rclone/rclone.conf" <<EOF
 EOF
 
 #-------------------------------------------------------------------------------#
+apt update
 apt install git -y
 cd
 git clone https://github.com/Delitel-WEB/valheim_server_manager.git
