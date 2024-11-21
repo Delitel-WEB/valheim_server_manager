@@ -19,4 +19,12 @@ export SCREEN_SESSION_NAME="valheim_server"
 RCLONE_CONFIG="
 
 "
+
+#-------------------------------------------------------------------------------#
+apt install git -y
+cd
+git clone https://github.com/Delitel-WEB/valheim_server_manager.git
+#-------------------------------------------------------------------------------#
+source $HOME/valheim_server_manager/scripts/send_message.sh
+source $HOME/valheim_server_manager/scripts/preparing_server.sh
 ```
