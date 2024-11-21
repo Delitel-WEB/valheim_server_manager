@@ -27,4 +27,8 @@ git clone https://github.com/Delitel-WEB/valheim_server_manager.git
 #-------------------------------------------------------------------------------#
 source $HOME/valheim_server_manager/scripts/send_message.sh
 source $HOME/valheim_server_manager/scripts/preparing_server.sh
+source $HOME/valheim_server_manager/scripts/download_valheim_server.sh
+source $HOME/valheim_server_manager/scripts/get_files_from_drive.sh
+
+download_valheim_server
 ```
