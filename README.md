@@ -32,6 +32,8 @@ source $HOME/valheim_server_manager/scripts/download_valheim_server.sh
 source $HOME/valheim_server_manager/scripts/get_files_from_drive.sh
 source $HOME/valheim_server_manager/scripts/get_server_config_from_drive.sh
 source $HOME/valheim_server_manager/scripts/get_server_info.sh
+source $HOME/valheim_server_manager/scripts/start_server.sh
+
 
 
 download_valheim
