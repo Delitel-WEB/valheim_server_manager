@@ -16,9 +16,9 @@ LOCAL_WORLD_DATA_PATH="$HOME/.config/unity3d/IronGate/Valheim"
 
 export SCREEN_SESSION_NAME="valheim_server"
 
-RCLONE_CONFIG="
-
-"
+cat > "$HOME/.config/rclone/rclone.conf" <<EOF
+<Конфиг rclone>
+EOF
 
 #-------------------------------------------------------------------------------#
 apt install git -y
