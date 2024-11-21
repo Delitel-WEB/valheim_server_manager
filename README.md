@@ -34,7 +34,7 @@ source $HOME/valheim_server_manager/scripts/get_server_info.sh
 source $HOME/valheim_server_manager/scripts/start_server.sh
 
 
-download_valheim_server
+download_valheim
 get_server_config
 get_server_info
 start_server
