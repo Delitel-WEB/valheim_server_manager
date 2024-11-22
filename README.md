@@ -16,6 +16,7 @@ export LOCAL_WORLD_DATA_PATH="$HOME/.config/unity3d/IronGate/Valheim"
 
 export SCREEN_SESSION_NAME="valheim_server"
 
+mkdir -p $HOME/.config/rclone
 cat > "$HOME/.config/rclone/rclone.conf" <<EOF
 <Конфиг rclone>
 EOF
@@ -23,7 +24,7 @@ EOF
 #-------------------------------------------------------------------------------#
 apt update
 apt install git -y
-cd
+cd $HOME
 git clone https://github.com/Delitel-WEB/valheim_server_manager.git
 #-------------------------------------------------------------------------------#
 source $HOME/valheim_server_manager/scripts/send_message.sh
