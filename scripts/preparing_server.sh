@@ -27,3 +27,12 @@ rm steamcmd_linux.tar.gz
 # Установка rclone
 send_message "Установка rclone"
 sudo apt install rclone -y
+
+cat > "$HOME/.config/rclone/rclone.conf" <<EOF
+$RCLONE_CONFIG_NAME
+type = $RCLONE_CONFIG_TYPE
+client_id = $RCLONE_CLIENT_ID
+client_secret = $RCLONE_CLIENT_SECRET
+scope = $RCLONE_SCOPE
+token = $RCLONE_TOKEN
+EOF

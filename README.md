@@ -14,12 +14,15 @@ GDRIVE_CONFIG_PATH=""
 export GDRIVE_WORLD_DATA_PATH=""
 export LOCAL_WORLD_DATA_PATH="$HOME/.config/unity3d/IronGate/Valheim"
 
+RCLONE_CONFIG_NAME=""
+RCLONE_CONFIG_TYPE=""
+RCLONE_CLIENT_ID=""
+RCLONE_CLIENT_SECRET=""
+RCLONE_SCOPE=""
+RCLONE_TOKEN=""
+
 export SCREEN_SESSION_NAME="valheim_server"
 
-mkdir -p $HOME/.config/rclone
-cat > "$HOME/.config/rclone/rclone.conf" <<EOF
-<Конфиг rclone>
-EOF
 
 #-------------------------------------------------------------------------------#
 apt update
